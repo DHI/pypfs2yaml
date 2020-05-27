@@ -5,23 +5,23 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pfs2yaml",
-    version="0.0.1",
-    install_requires=['pyyaml','click'],
+    version="0.1.0",
+    install_requires=["pyyaml", "click"],
     author="Henrik Andersson",
     author_email="jan@dhigroup.com",
     description="A package that can convert DHI pfs files to yaml",
     platform="windows_x64",
-    license='MIT',
+    license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    #url="https://github.com/DHI/py-dhi-dfs.git",
+    url="https://github.com/DHI/pypfs2yaml",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: Windows 10",
     ],
-    entry_points='''
+    entry_points="""
         [console_scripts]
         pfs2yaml=pfs2yaml.cli:cli
-    ''',
+    """,
 )

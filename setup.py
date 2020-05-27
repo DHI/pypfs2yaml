@@ -17,8 +17,13 @@ setuptools.setup(
     url="https://github.com/DHI/pypfs2yaml",
     packages=setuptools.find_packages(),
     classifiers=[
+        "License :: OSI Approved :: BSD License",
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Science/Research",
+        "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Operating System :: Windows 10",
+        "Operating System :: Microsoft :: Windows",
+        "Topic :: Scientific/Engineering",
     ],
     entry_points="""
         [console_scripts]

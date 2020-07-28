@@ -1,9 +1,9 @@
-from yaml import load
+from yaml import load, BaseLoader
 
 def pfs2dict(pfsstring):
 
     y = pfs2yaml(pfsstring)
-    d = load(y)
+    d = load(y,Loader=BaseLoader)
     return d
 
 

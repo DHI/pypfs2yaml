@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pfs2yaml",
-    version="0.1.0",
+    version="0.1.1",
     install_requires=["pyyaml", "click"],
     author="Henrik Andersson",
     author_email="jan@dhigroup.com",
